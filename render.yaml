@@ -1,7 +1,6 @@
 services:
   - type: web
-    name: telegram-bot
+    name: gm-bot
     env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
+    buildCommand: ""
     startCommand: python gm.py
